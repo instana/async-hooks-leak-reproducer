@@ -1,0 +1,12 @@
+{
+  "name": "async-hooks-leak-reproducer",
+  "version": "1.0.0",
+  "description": "Reproduces missing destroy calls in async_hooks/http_client",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
